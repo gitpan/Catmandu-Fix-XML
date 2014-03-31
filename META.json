@@ -1,0 +1,48 @@
+{
+   "abstract" : "Catmandu fix modules for processing xml",
+   "author" : [
+      "nicolas.franck@ugent.be"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4203",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Catmandu-Fix-XML",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Catmandu" : "0.8013",
+            "Moo" : "1.004002",
+            "XML::LibXML" : "2.0113",
+            "XML::LibXSLT" : "1.89",
+            "perl" : "v5.10.1"
+         }
+      }
+   },
+   "provides" : {
+      "Catmandu::Fix::XML" : {
+         "file" : "lib/Catmandu/Fix/XML.pm",
+         "version" : "0.1"
+      },
+      "Catmandu::Fix::xml_transform" : {
+         "file" : "lib/Catmandu/Fix/xml_transform.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.1"
+}
