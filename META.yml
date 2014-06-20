@@ -1,5 +1,5 @@
 ---
-abstract: 'Catmandu fix modules for processing xml'
+abstract: 'Catmandu fix modules for processing xml (deprecated)'
 author:
   - nicolas.franck@ugent.be
 build_requires: {}
@@ -15,15 +15,10 @@ name: Catmandu-Fix-XML
 provides:
   Catmandu::Fix::XML:
     file: lib/Catmandu/Fix/XML.pm
-    version: 0.1
-  Catmandu::Fix::xml_transform:
-    file: lib/Catmandu/Fix/xml_transform.pm
+    version: 0.2
 requires:
-  Catmandu: 0.8013
-  Moo: 1.004002
-  XML::LibXML: 2.0113
-  XML::LibXSLT: 1.89
+  Catmandu::XML: 0.04
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1
+version: 0.2
